@@ -1,6 +1,8 @@
-# ⚡️ Eye Dataset Classification with TensorFlow and Keras 🚀
+# ⚡️Eye Dataset Classification with TensorFlow and Keras 🚀
 
 This project showcases the implementation of a Convolutional Neural Network (CNN) to classify eye images into predefined categories. The primary focus is to demonstrate the end-to-end workflow of image classification, starting from dataset preparation to training, evaluation, and visualization of results.
+
+<br>
 
 ## Project Overview
 
@@ -14,6 +16,7 @@ The dataset is assumed to be organized into subfolders, each corresponding to a 
 - **Data Normalization**: Pixel values are rescaled to the range [0, 1] for faster convergence during training.
 - **Data Splitting**: The `ImageDataGenerator` class splits the dataset into training (90%) and validation (10%) subsets using its `validation_split` parameter.
   
+<br>
 
 ### 2. Model Architecture 🏛️
 The CNN model is designed using the `Sequential` API, which allows layers to be stacked in order. The architecture consists of:
@@ -21,24 +24,34 @@ The CNN model is designed using the `Sequential` API, which allows layers to be 
 - **MaxPooling Layers**: Reduce the dimensions of feature maps, minimizing computational cost and retaining critical information.
 - **Dropout Layer**: Introduced after dense layers to reduce overfitting by randomly disabling neurons during training.
 - **Dense Layers**: Fully connected layers are added for classification. The final layer uses the `softmax` activation function to output class probabilities for the 4 categories.
+
+  <br>
   
 ### 3. Model Compilation ✅
 The model is compiled with the following configurations:
 - **Optimizer**: `Adam`, known for its efficient and adaptive learning rate.
 - **Loss Function**: `categorical_crossentropy`, suitable for multi-class classification problems.
 - **Metric**: `accuracy`, used to monitor the model's performance during training and validation.
+
+  <br>
   
 ### 4. Model Training 🏃🏽
 The model is trained using the prepared training dataset for 10 epochs. During training:
 - The model learns to recognize patterns in images using the convolutional layers.
 - Validation data is used to monitor performance and prevent overfitting.
+
+  <br>
   
 ### 5. Evaluation and Visualization 👁️
 The model's performance is evaluated using several methods:
 - **Accuracy and Loss Graphs**: Training and validation accuracy and loss are plotted to visualize the model's learning curve.
 - **Predictions**: Sample predictions are generated using the test dataset, displaying the true labels alongside the predicted labels.
+
+  <br>
   
 ### 6. Examples for Project ⚡️
+
+<br>
 
 <p align="center">
   <img src="https://github.com/realmir1/EyesAI/blob/main/Ekran%20Resmi%202024-12-20%2017.27.54.png?raw=true" alt="Resim 1" width="350"/>
@@ -47,11 +60,15 @@ The model's performance is evaluated using several methods:
   <img src="https://github.com/realmir1/EyesAI/blob/main/Ekran%20Resmi%202024-12-22%2019.09.47.png?raw=true" alt="Resim 3" width="350"/>
 </p>
 
+<br> 
+
 ### Where is Datasets ?
 I use to kaggle datasets for my project. This program is has big data. Examples health, machine, computer science...
 <p align="center">
 <img src="https://repository-images.githubusercontent.com/397962098/eac3047e-49e5-442b-9abf-a1d03e316a78"  alt="resim5"  width="700"/>
 </p>
+
+<br> 
 
 ## Visualizations 👁️
 1. **Training Metrics**:
@@ -107,10 +124,12 @@ I use to kaggle datasets for my project. This program is has big data. Examples 
 
 This project provides a foundational understanding of building CNN models for image classification tasks, enabling further exploration and improvements in medical imaging applications.
 
-
+<br>
 <br>
 
 ## Board of Library
+
+<br>
 
 | Technology         | Where ?              |
 |--------------------|----------------------|
@@ -119,6 +138,7 @@ This project provides a foundational understanding of building CNN models for im
 | Matlpotlib         | Graph Learning       |
 | ImageDataGenerator | Data Learning        |
 
+<br>
 
 ## Library 📚📒📕📙
 <p align="center">
