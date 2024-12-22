@@ -2,7 +2,6 @@
 
 This project showcases the implementation of a Convolutional Neural Network (CNN) to classify eye images into predefined categories. The primary focus is to demonstrate the end-to-end workflow of image classification, starting from dataset preparation to training, evaluation, and visualization of results.
 
-<br>
 
 ## Project Overview
 
