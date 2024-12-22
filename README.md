@@ -107,7 +107,18 @@ I use to kaggle datasets for my project. This program is has big data. Examples 
 
 This project provides a foundational understanding of building CNN models for image classification tasks, enabling further exploration and improvements in medical imaging applications.
 
+
 <br>
+
+## Board of Library
+
+| Technology         | Where ?              |
+|--------------------|----------------------|
+| TensorFlow         | Deep Learning        |
+| Keras              | Deep Learning        |
+| Matlpotlib         | Graph Learning       |
+| ImageDataGenerator | Data Learning        |
+
 
 ## Library 📚📒📕📙
 <p align="center">
